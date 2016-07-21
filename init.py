@@ -128,8 +128,7 @@ def readEmails(service):
                                 \.[a-zA-Z]{2,4}   #punto algo
                                 )''', re.VERBOSE)
     #regex to find the From, Date and Subject of the email
-    fromRegex = re.compile(r'From:\s*((\w*\W*\s)*(<)*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})(>)*)')
-    fromRegex2 = re.compile(r'From:\s*(\w*\W*\s*)*?((<)*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})(>)*)') # the same but a little more permisive in the name
+    fromRegex = re.compile(r'From:\s*(\w*\W*\s*)*?((<)*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})(>)*)') # the same but a little more permisive in the name
     dateRegex = re.compile(r'Date:\s(\w+,\s\d+\s\w+\s\d+\s\d+:\d+:\d+\s?\-\d+)')
     subjectRegex = re.compile(r'Subject:\s([\w\d\s\W]+?)\n')
     try:
@@ -141,11 +140,11 @@ def readEmails(service):
             for mail in emails:
                 mimeMail = mess.GetMimeMessage(service, 'me', mail['id'])# we obtain the email by the id
                 body = str(mimeMail) #pass the mime Message to string
-                sender = fromRegex.findall(body)[0][0] if fromRegex.findall(body) else None #it find the sender, date and subject with the regex
+                sender = (emailRegex.findall(str(fromRegex.findall(body))))[0]
                 date = dateRegex.findall(body)[0]
                 subj = subjectRegex.findall(body)[0]
-                if not sender:
-                    sender = (emailRegex.findall(str(fromRegex2.findall(body))))[0]
+                
+
                 if sender:
                     if sender not in analized.keys(): #we add it to the dictionary if not exist in it
                         analized[sender] = {'count': 1,'subjects':{subj:1,},}
