@@ -17,4 +17,7 @@ You need to enter to your [Google developer Console](https://console.developers.
 # Why I did this code?
 I did this code, cause in my work I have the minor task of check the failure emails, a repetitive task I wanted to automate, and I came out with this, it works, at least for me.
 
+# Why I don't use SMTP/POP3/IMAP or other Python/Gmail librarys?
+Well I try it, but to make it work I had to disable the Gmail extra security, and I dont feel the need to do it. So I search the Google's way to do it, and i find it.
+
 ![Razielku](https://avatars3.githubusercontent.com/u/16324160?v=3&s=96)
