@@ -14,7 +14,7 @@ the links where I found the information that was useful to me.:
   
 You will need to enter your [Google developer Console](https://console.developers.google.com) to enable [Gmail Api](https://console.developers.google.com/apis/api/gmail/overview) and generate a secret.json file in the [Google Developer Console Api Credentials List](https://console.developers.google.com/apis/credentials)
 
-# Why I did this code?
+# Why did I do this code?
 I've made this code because I have a minor task of reviewing emails where failures were announced, a repetitive task that I wanted to automate,so I created this, at least it works for me.
 
 # Why did I not use SMTP / POP3 / IMAP or other libraries Phyton / Gmail?
