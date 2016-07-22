@@ -1,11 +1,11 @@
 #! /usr/local/bin/python3
-# init.py find your unread messages and send to you a summary
-# I know it have a lot of failures but with this I think you can make your own version
+# init.py find your unread messages and send them to you aa a summary
+# I know it have a lot of failures but with this I think you can make your own improved version
 
-#first of all (maybe Fourth), my first language is not English, so I may have faults writing on it, thank you for your understanding
+#first of all (maybe Fourth), my first language is not English, so I may have faults writing it, thank you for your understanding
 
 #to make this work you need to download the Google APIs Client Library for Python
-#more info how to do it in https://developers.google.com/api-client-library/python/start/installation
+#more info how to do it, in https://developers.google.com/api-client-library/python/start/installation
 
 import httplib2
 import os
@@ -62,7 +62,7 @@ def get_credentials():
         more info in https://developers.google.com/identity/protocols/OAuth2  and  https://developers.google.com/api-client-library/python/guide/aaa_oauth
         I put an example of client_secret.json file
         you can download your own file in the developer console, more info in https://support.google.com/cloud/answer/6158857?hl=en&ref_topic=6262490
-        in my case I generated the file and don't changed anything of it
+        in my case, I generated the file and didn't changed anything of it
         """
 
         appName = 'Gmail API Python Test'
