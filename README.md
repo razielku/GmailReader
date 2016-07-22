@@ -17,7 +17,7 @@ You will need to enter your [Google developer Console](https://console.developer
 # Why I did this code?
 I've made this code because I have a minor task of reviewing emails where failures were announced, a repetitive task that I wanted to automate,so I created this, at least it works for me.
 
-# Why I don't use SMTP/POP3/IMAP or other Python/Gmail librarys?
+# Why did I not use SMTP / POP3 / IMAP or other libraries Phyton / Gmail?
 Well, I've tried, but to make them work I needed to unable the extra security of Gmail and I felt it was not necessary, so I've looked for the official way of Google to do so, and found it.
 
 ![Razielku](https://avatars3.githubusercontent.com/u/16324160?v=3&s=96)
