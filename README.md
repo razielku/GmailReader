@@ -1,7 +1,7 @@
 # GmailReader
 Python3 code to read and use a Gmail account and do what you want with it. Just be creative
 
-this code it's a mixture if my own and what I found on the [Gmail Api Docs for Python](https://developers.google.com/gmail/api/quickstart/python), so I don't think I might have the rights to ask you to give me the credits of it, but if you want (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
+this code it's a mixture of my own and what I found on the [Gmail Api Docs for Python](https://developers.google.com/gmail/api/quickstart/python), so I don't think I might have the rights to ask you to give me the credits of it, but if you want (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)
 
 the runing example is the [init.py](https://github.com/razielku/GmailReader/blob/master/init.py) file
 # More info
