@@ -20,4 +20,5 @@ I've made this code because I have a minor task of reviewing emails where failur
 # Why did I not use SMTP / POP3 / IMAP or other libraries Phyton / Gmail?
 Well, I've tried, but to make them work I needed to unable the extra security of Gmail and I felt it was not necessary, so I've looked for the official way of Google to do so, and found it.
 
-![Razielku](https://avatars3.githubusercontent.com/u/16324160?v=3&s=96)
+![Razielku](https://avatars3.githubusercontent.com/u/16324160?v=3&s=96) 
+Алекс, идти ебать себя, я люблю тебя человек ♥. не гомо
